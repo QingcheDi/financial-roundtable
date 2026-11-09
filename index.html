@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="六位金融大牛的 AI 圆桌会议：上传议题，观看巴菲特、塔勒布、达里奥等大牛实时辩论，你也可以亲自下场发言。" />
+    <meta name="theme-color" content="#050100" />
+    <link rel="manifest" href="/financial-roundtable/manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="/financial-roundtable/icon-192.png" />
+    <link rel="apple-touch-icon" href="/financial-roundtable/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>金融圆桌 · AI 投委会</title>
+    <script type="module" crossorigin src="/financial-roundtable/assets/index-8zg__imU.js"></script>
+    <link rel="stylesheet" crossorigin href="/financial-roundtable/assets/index-fmk1jUMz.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator && !['localhost', '127.0.0.1'].includes(window.location.hostname)) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/financial-roundtable/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

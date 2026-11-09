@@ -1,0 +1,329 @@
+{
+  "id": "01-L1-0033",
+  "name": "落地窗",
+  "mode": "unified",
+  "revision": "ae3d5a9387e829af76531ec3a5511e7f0698ee780bb5647080fc0d5249dbb76c",
+  "version": "compact-v2+orientation-v1",
+  "sourceSha256": "db0115fcbc68a3f0dc7b5584ef5a4a5ceebd1642d271c35bc819693c16dc93b1",
+  "sourceModule": null,
+  "sourceBytes": 9039504,
+  "bytes": 1135177,
+  "entryBytes": 11670,
+  "defaultState": "default",
+  "states": [
+    "default"
+  ],
+  "stateBytes": {
+    "default": 1117853
+  },
+  "verticesBefore": 4692,
+  "verticesAfter": 3192,
+  "indexedGeometries": 10,
+  "geometryBytesBefore": 148992,
+  "geometryBytesAfter": 120144,
+  "textureBytesBefore": 6598375,
+  "textureBytesAfter": 1073138,
+  "exactTextures": 0,
+  "textureEncodings": [
+    {
+      "id": "5d561745792387e80763dcf55a7afa7370deec11939830c43463c55434f35bf9",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "cdb926b1e16e7dcbd2cee14d217492d8d7cc66dd19a18ad06393b58dccda87c5",
+      "sourceBytes": 901207,
+      "uses": [
+        "roughnessMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.619880199432373,
+      "bytes": 305196,
+      "mime": "image/webp",
+      "outputSha256": "12fdc849e2493c31b85eee22208a82988eb9d792c585266085d948f2282b4249"
+    },
+    {
+      "id": "fde87203e4e47ce4b0a26e21d18c343c669e44819ec92d29134be1aec3a780c8",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "5381676e00ddfc8360da86ec1b162d259bc4fd43210e5974e7520e95278982f9",
+      "sourceBytes": 1261625,
+      "uses": [
+        "normalMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.27189019322395325,
+      "normalMeanDegrees": 0.055630881863153014,
+      "normalP99Degrees": 0.9,
+      "normalMaxDegrees": 1.5282871723175049,
+      "bytes": 118060,
+      "mime": "image/webp",
+      "outputSha256": "b8d16f2385766cdd6fc2810629680247eed5a5bc8f84227332a1afc372b1f610"
+    },
+    {
+      "id": "1da2a499ba81b603eca2faa193e82596f612ab903841bbd272440ea508636624",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "6a67693326f0b34231a948c7c6dbd164e428044f58e4a20ec99f2760cc18eeb6",
+      "sourceBytes": 28266,
+      "uses": [
+        "roughnessMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.5298746824264526,
+      "bytes": 2044,
+      "mime": "image/webp",
+      "outputSha256": "7eb07e2e90a824f8c508ef367f3e49a212065fed8033defce4e5e69bce71690c"
+    },
+    {
+      "id": "0ee41a4f3931291a115be078818564289da2df73bb777d5220cad8f310395bf0",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "56d4ea82d71975ab569c77ea7165cea5e650a25ca3e706be1cdd683e77946c34",
+      "sourceBytes": 60842,
+      "uses": [
+        "normalMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.05781839042901993,
+      "normalMeanDegrees": 0.0018529925802960312,
+      "normalP99Degrees": 0.0,
+      "normalMaxDegrees": 1.4362680912017822,
+      "bytes": 7566,
+      "mime": "image/webp",
+      "outputSha256": "2adaf37b555368208084820e8879358763654b409a95e54031fa9f0e22501b35"
+    },
+    {
+      "id": "d13f0614e3d6aa6da92413018556c5e779257c82a971cd4be67a478b83faa1a5",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "cfc5467ad8d101508737b01e918dbcdcff694c5307ce3b111484e998afa7a1b4",
+      "sourceBytes": 200634,
+      "uses": [
+        "roughnessMap"
+      ],
+      "width": 1024,
+      "height": 1024,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 1.0069187879562378,
+      "bytes": 68544,
+      "mime": "image/webp",
+      "outputSha256": "da66c20695af55e2d117252e17e2b30d2a2c70bf7fd0ce5c095dceea919ab590"
+    },
+    {
+      "id": "247da478f0d641db964ce001cd1de3a60be68a15dae8fe0ada59349dc3c93100",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "bf19396372752dc9c57cd1a16f992e841d3e8920353a9a96741993ec124d18d5",
+      "sourceBytes": 305132,
+      "uses": [
+        "normalMap"
+      ],
+      "width": 1024,
+      "height": 1024,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.43334218859672546,
+      "normalMeanDegrees": 0.14045356761467254,
+      "normalP99Degrees": 1.02,
+      "normalMaxDegrees": 1.3401288986206055,
+      "bytes": 23018,
+      "mime": "image/webp",
+      "outputSha256": "dba75094f4ea87f96fd913d20e770574c20489a22284a2a2373f0fee5a5b09b3"
+    },
+    {
+      "id": "4860856f9b17491dd301e344d26000fab4f96906035df54553c87cd7a8b483be",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "887dc69c1cad41da721f7b1cd0d9c9c4452808357bf64320f91390c387f65a72",
+      "sourceBytes": 174810,
+      "uses": [
+        "roughnessMap"
+      ],
+      "width": 1024,
+      "height": 1024,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.9574412107467651,
+      "bytes": 59624,
+      "mime": "image/webp",
+      "outputSha256": "f056618339a1126e5f4c24d5ff5bfad8fdbd5bdc9b6ca996c7809fce4f71efca"
+    },
+    {
+      "id": "0b4a1fd2929dd3b5e52810b69760842788c48a95093bcd9b8983b0198e72755d",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "bbc4d6e6187c296beb699ee9a9b5f8294a4214095c7fd54164e149267e11e860",
+      "sourceBytes": 262265,
+      "uses": [
+        "normalMap"
+      ],
+      "width": 1024,
+      "height": 1024,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.44972196221351624,
+      "normalMeanDegrees": 0.1418898219031881,
+      "normalP99Degrees": 1.01,
+      "normalMaxDegrees": 1.3339818716049194,
+      "bytes": 18656,
+      "mime": "image/webp",
+      "outputSha256": "17d7257eb05a8dd5f4b72ebc9b26549077c2a8a3ae05cdb2738449e454984f6c"
+    },
+    {
+      "id": "2690a8d822f2c6efae5cfe62f7a3b8c4b49f3294afe3c104a0c82d81fca8cbe2",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "ab30db06fa4dbf5dd9cc60673aedc9cc795d14f8c1e2c0a030a9cc85d67ed62f",
+      "sourceBytes": 668861,
+      "uses": [
+        "roughnessMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.41669127345085144,
+      "bytes": 209182,
+      "mime": "image/webp",
+      "outputSha256": "eea3d56fc9dead16060d93c46d095eb92d223832ad52aa5ab006235343281b39"
+    },
+    {
+      "id": "ea6c0b2f67b3986bcf1199f0931f7add78ff40dcf618b0d27b8d13e89c5179cb",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "56693e565d7192d5f231abd7e825c6bd8ce42d55cd728ac0c25368f810eb5511",
+      "sourceBytes": 1034236,
+      "uses": [
+        "normalMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.16972047090530396,
+      "normalMeanDegrees": 0.022092678987856496,
+      "normalP99Degrees": 0.9,
+      "normalMaxDegrees": 1.3306037187576294,
+      "bytes": 26166,
+      "mime": "image/webp",
+      "outputSha256": "221ca543b8b72d111d8e0f82df13531c03ca863761ad037e91bcbe3e538de897"
+    },
+    {
+      "id": "0fd09107ad79b1ae0c56e2bbfe7557e3ff6260fee68172344fb7f6519b8d8f28",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "5cd0ac030989ac0ecbbd94aa3848248a1decd972777b7bcf3e13525db9eadf95",
+      "sourceBytes": 668397,
+      "uses": [
+        "roughnessMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.4165283739566803,
+      "bytes": 209108,
+      "mime": "image/webp",
+      "outputSha256": "3a9d7500c5356ba7af71ff74876bdea4021b05ab01617c71fce24a2afbf78b25"
+    },
+    {
+      "id": "d0a9885a1be826b581beef4853480589c0a0af219573fb9dae0b29bdb05efa1d",
+      "policy": "v2-bounded-1",
+      "sourceSha256": "066e9336bfaabcc734e6231c0153e1e48d7297a323197731a982e55820de3a6a",
+      "sourceBytes": 1032100,
+      "uses": [
+        "normalMap"
+      ],
+      "width": 4096,
+      "height": 4096,
+      "encoding": "webp-bounded-numeric",
+      "pixelsExact": false,
+      "alphaExact": true,
+      "maxChannelError": 2,
+      "rgbRMSE": 0.1698235124349594,
+      "normalMeanDegrees": 0.022193121195463572,
+      "normalP99Degrees": 0.9,
+      "normalMaxDegrees": 1.3306037187576294,
+      "bytes": 25974,
+      "mime": "image/webp",
+      "outputSha256": "36f77a41d32eb4e55cde9c7162a4a438192c88062a572bfea79fb985bc26df2a"
+    }
+  ],
+  "qualification": "unified",
+  "geometryReconstructionExact": true,
+  "allStatesPreserved": true,
+  "allMaterialsPreserved": true,
+  "files": {
+    "README.md": {
+      "bytes": 3469,
+      "sha256": "b7ebc25b93320f8086e4c1032f4b67ff48dcddb664d84807136005a515443700"
+    },
+    "THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    "asset.mjs": {
+      "bytes": 11544,
+      "sha256": "14ec79ea9e7390bc2d4c074bebbff7d99fd88ee3776cdf015c2b4670ef25f98c"
+    },
+    "data.json.gz": {
+      "bytes": 5310,
+      "sha256": "68f98c7fdb7af4793fc2c10c4c6faa820ebf469ce4a86253257b3b91b9113fdf"
+    },
+    "loader.mjs": {
+      "bytes": 3198,
+      "sha256": "c4394edfa2f78b47f55304d7126f1e16fd13667107fa2475cfd08c1b300fc42d"
+    },
+    "pack-1.bin.gz": {
+      "bytes": 1097639,
+      "sha256": "2cc7439dee0fdb33f6b56278d6f4ad3ef2424fe91e9d77f17df10677e28840cb"
+    },
+    "orientation.json": {
+      "bytes": 971,
+      "sha256": "d700c9ed5d550ecc5836b6270a6ec9e0721b3787d8798199bd34356e63405f85"
+    },
+    "orientation.mjs": {
+      "bytes": 865,
+      "sha256": "c84145b5675046ee90539ff2b87c5472ef9df528a8079cc653f9204a6dabf42e"
+    }
+  },
+  "relativeDirectory": "01-L1-0033/compact-v2-db0115fcbc68",
+  "elapsedSeconds": 120.09,
+  "payloadBytes": 1120549,
+  "orientationRevision": "2026-10-13",
+  "orientationStatus": "unknown",
+  "predecessor": {
+    "batch": "2026-10-12",
+    "zipSha256": "15e18ee655617bc60383a387866096fc3d7fb38d8e4b5cb2b659fe97d020d7de",
+    "receiptSha256": "536ede25013d7f269dbc8c545042de99272c2f4711e0092ecffc1a6a701e105d"
+  },
+  "publicDistributionCleanup": {
+    "version": "public-package-privacy-20261026-v1",
+    "internalPathsOmitted": true,
+    "rightsNoticesPreserved": true,
+    "originalBuildMetricsRetained": true
+  }
+}

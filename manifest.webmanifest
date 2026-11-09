@@ -1,0 +1,13 @@
+{
+  "name": "金融圆桌 · AI 投委会",
+  "short_name": "金融圆桌",
+  "description": "六位金融大牛的 AI 圆桌会议：上传议题，观看巴菲特、塔勒布、达里奥等大牛实时辩论，你也可以亲自下场发言。",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#050100",
+  "theme_color": "#050100",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

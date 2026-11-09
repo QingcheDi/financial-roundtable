@@ -1,0 +1,52 @@
+{
+  "schema": "asset-orientation/1",
+  "revision": "2026-10-13",
+  "itemId": "01-L1-0176",
+  "status": "source_declared",
+  "referenceState": "default",
+  "scope": "Whole-asset placement facing in the reference state; not the live direction of each articulated child.",
+  "source": {
+    "frame": "Exported source-scene coordinates, before loader conversion",
+    "upAxis": "+Z",
+    "forwardAxis": "-Y",
+    "forwardVector": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "placement": {
+    "Y": {
+      "upAxis": "+Y",
+      "forwardAxis": "+Z",
+      "forwardVector": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Z": {
+      "upAxis": "+Z",
+      "forwardAxis": "-Y",
+      "forwardVector": [
+        0,
+        -1,
+        0
+      ]
+    }
+  },
+  "defaultUpAxis": "Y",
+  "frameRule": "placement values are in an identity placement parent after createAsset up-axis conversion. They are NOT raw root-local vectors or world vectors after placement.",
+  "evidence": [
+    {
+      "axis": "-Y",
+      "location": "data.json.gz/states/default/nodes/01-L1-0176_CantileverChair/properties/origin",
+      "quote": "Floor centre; +Z up; -Y front"
+    },
+    {
+      "axis": "-Y",
+      "location": "native meta.json/origin",
+      "quote": "Floor-centred origin at (0, 0, 0), metres; Z up, -Y front."
+    }
+  ]
+}
