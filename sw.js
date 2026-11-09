@@ -1,6 +1,8 @@
 // 金融圆桌 Service Worker
 // 策略：HTML/导航 → network-only；静态资源 → cache-first（带哈希指纹，天然安全）
-const CACHE = 'roundtable-static-v5';
+// 大体积模型走 jsDelivr CDN（CORS 开放），同样纳入缓存，二次打开秒开
+const CACHE = 'roundtable-static-v6';
+const CDN_HOST = 'cdn.jsdelivr.net';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
@@ -24,8 +26,9 @@ self.addEventListener('fetch', (e) => {
   if (req.mode === 'navigate' || url.pathname.endsWith('.html')) return;
   // API 请求不缓存
   if (url.pathname.includes('/chat/completions')) return;
-  // 仅缓存同源静态资源
-  if (url.origin !== self.location.origin) return;
+  // 仅缓存同源静态资源与模型 CDN（jsDelivr 带 CORS，响应可缓存）
+  const cacheable = url.origin === self.location.origin || url.hostname === CDN_HOST;
+  if (!cacheable) return;
 
   e.respondWith(
     caches.match(req).then(
